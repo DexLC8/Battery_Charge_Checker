@@ -1,7 +1,7 @@
 import math
 charge = input("What is your charge in Amp hours? ")
-charge = float(charge)
 usage = input("What is your average usage in Amps? ")
+charge = float(charge)
 usage = float(usage)
 print(usage)
 hours = charge / usage
