@@ -3,7 +3,6 @@ charge = input("What is your charge in Amp hours? ")
 usage = input("What is your average usage in Amps? ")
 charge = float(charge)
 usage = float(usage)
-print(usage)
 hours = charge / usage
 round_hours = math.floor(hours)
 minutes = hours - round_hours
