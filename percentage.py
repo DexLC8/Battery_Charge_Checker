@@ -1,5 +1,5 @@
-capacity = input("What is your total battery capacity in Amp hours? ")
-charge = input("What is your current SoC in Amp hours? ")
+capacity = input("Total Capacity: ")
+charge = input("Current SoC: ")
 capacity = float(capacity)
 charge = float(charge)
 percentage = charge / capacity

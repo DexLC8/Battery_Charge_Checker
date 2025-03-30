@@ -1,6 +1,6 @@
 import math
-charge = input("What is your charge in Amp hours? ")
-usage = input("What is your average usage in Amps? ")
+charge = input("Current SoC: ")
+usage = input("Avg. Usage: ")
 charge = float(charge)
 usage = float(usage)
 hours = charge / usage
